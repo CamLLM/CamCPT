@@ -4,75 +4,99 @@
 
 ## 预训练数据收集标准
 与 CAMB 评估基准的构建标准类似，我们从培养合格的民航维修工程师的教学大纲出发，来构建我们民航维修大模型预训练的数据和训练标准。民航维修专业在高等教育或者职业教育中都有设立，并发展较为成熟，也有较为权威细致的民航维修专业的教学培养大纲。我们按照教学大纲以及结合网上相关开源社区论坛和图书论文期刊等，对民航维修领域的数据进行收集。教学培养大纲如图所示：
+
+> **Note：**
+> [教学培养大纲 PDF 文件](pt_data_collect/飞行器维修工程技术专业教学标准（高等职业教育本科）.pdf)
+
 <details>
 <summary>教学培养大纲</summary>
-<p align="center"> <img src="images/syllabus_1.png" style="width: 85%;" id="title-icon">       </p>
-<p align="center"> <img src="images/syllabus_2.png" style="width: 85%;" id="title-icon">       </p>
-<p align="center"> <img src="images/syllabus_3.png" style="width: 85%;" id="title-icon">       </p>
+<p align="center"> <img src="images/syllabus_1.png" style="width: 85%;" id="title-icon"></p>
+<p align="center"> <img src="images/syllabus_2.png" style="width: 85%;" id="title-icon"></p>
+<p align="center"> <img src="images/syllabus_3.png" style="width: 85%;" id="title-icon"></p>
 </details>
 
 ## 预训练数据收集
 民航维修预训练数据源体系
-<p align="center"> <img src="images/data_source.png" style="width: 85%;" id="title-icon">       </p>
+<p align="center"> <img src="images/data_source.png" style="width: 85%;" id="title-icon"></p>
 
 ### 民航维修开设课程教材
-1. 根据大纲，获取开设民航维修专业的相关院校教材，示例如下图：
+1. 根据大纲，获取开设民航维修专业的相关院校教材:
 
+    > **Note：**
+    > [民航英语教材-辞典-对齐术语 PDF 目录](pt_data_collect/民航英语教材&辞典&对齐术语/)
+    
     <details>
     <summary>开设课程</summary>
-    <p align="center"> <img src="images/course.png" style="width: 85%;" id="title-icon">       </p>
-    </details>
+    <p align="center"> <img src="images/course.png" style="width: 85%;" id="title-icon"></p>
+    </details>  
 
 ### 民航维修执照考试教材及ATA教材
 1. 最新修订的关于发布民用航空器维修基础（M1-M6）系列教材
 
+    > **Note：**
+    > [民航维修执照中文教材 PDF 目录](pt_data_collect/CAMAC民用航空器维修人员执照培训教材/) &
+    > [FAA执照英文教材 PDF 目录](pt_data_collect/FAA执照教材/)
+
     <details>
     <summary>执照教材</summary>
-    <p align="center"> <img src="images/license.png" style="width: 85%;" id="title-icon">       </p>
+    <p align="center"> <img src="images/license.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
 2. ATA教材
 
+    > **Note：**
+    > [ATA00~ATA30 737NG机型中文版教材 PDF 目录](pt_data_collect/ATA00~ATA30%20737NG机型中文版教材/) &
+    > [ATA31~ATA80 737NG机型中文版教材 PDF 目录](pt_data_collect/ATA31~ATA80%20737NG机型中文版教材/)
+
     <details>
     <summary>ATA教材</summary>
-    <p align="center"> <img src="images/ATA.png" style="width: 85%;" id="title-icon">       </p>
+    <p align="center"> <img src="images/ATA.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
 ### 相关论文、期刊、图书等
 1. 知网、万方等相关主题检索，示例如下图：
 
+    > **Note：**
+    > [民航维修论文及期刊 PDF 目录](pt_data_collect/民航维修论文及期刊/)
+
     <details>
     <summary>论文</summary>
-    <p align="center"> <img src="images/paper.png" style="width: 85%;" id="title-icon">       </p>
+    <p align="center"> <img src="images/paper.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
 2. 期刊，如《航空维修与工程》
 
     <details>
     <summary>期刊</summary>
-    <p align="center"> <img src="images/journal.png" style="width: 85%;" id="title-icon">       </p>
+    <p align="center"> <img src="images/journal.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
 3. 相关经典民航维修图书等，如《波音737NG飞机系统》、《民航机务英语教程》等
 
     <details>
     <summary>经典图书</summary>
-    <p align="center"> <img src="images/books.png" style="width: 85%;" id="title-icon">       </p>
+    <p align="center"> <img src="images/books.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
 ### 官方维修手册及专业培训资料课件
 1. 波音飞机 FIM 手册、空客飞机 TSM 手册、ATA 手册等
 
+    > **Note：**
+    > [波音 FIM 手册](pt_data_collect/波音FIM手册/) &
+    > [空客 TSM 手册](pt_data_collect/空客TSM手册/) &
+    > [波音747-400英文 AMM 手册](pt_data_collect/波音747-400英文AMM手册/)
+
+
     <details>
     <summary>各类手册</summary>
-    <p align="center"> <img src="images/manual.png" style="width: 85%;" id="title-icon">       </p>
+    <p align="center"> <img src="images/manual.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
 2. 培训资料课件(PDF、Word、PPT等格式)
 
     <details>
     <summary>各类教辅讲义等</summary>
-    <p align="center"> <img src="images/teaching_materials.png" style="width: 85%;" id="title-icon">       </p>
+    <p align="center"> <img src="images/teaching_materials.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
 ### 网上开源数据
@@ -80,14 +104,14 @@
 
     <details>
     <summary>机务在线论坛</summary>
-    <p align="center"> <img src="images/airacm.png" style="width: 85%;" id="title-icon">       </p>
+    <p align="center"> <img src="images/airacm.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
 2. 相关优质公众号文章等
 
     <details>
     <summary>开源高质量领域文章</summary>
-    <p align="center"> <img src="images/wechat_blog.png" style="width: 85%;" id="title-icon">       </p>
+    <p align="center"> <img src="images/wechat_blog.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
 ### 合成数据
@@ -96,21 +120,21 @@
 
     <details>
     <summary>视频理解</summary>
-    <p align="center"> <img src="images/video.png" style="width: 85%;" id="title-icon">       </p>
+    <p align="center"> <img src="images/video.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
 2. 民航维修相关的原理图、结构图等，进行图片理解并文本生成
 
     <details>
     <summary>图片理解</summary>
-    <p align="center"> <img src="images/principle.png" style="width: 85%;" id="title-icon">       </p>
+    <p align="center"> <img src="images/principle.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
 ## 预训练数据获取
 
 ### 多模态大模型
 从多个维度、多个渠道收集到的民航维修相关数据格式多样繁杂。除了 PDF、PPT、Word、网页H5等文件格式外，版式更是复杂多变，这给 OCR 带来一定困难。然而最近一段时间，多模态大模型进展迅速。为了尽快拿到较高质量的 OCR 文本数据，采用 prompt 指令工程 + 多模态大模型的文本获取方法。
-    <p align="center"> <img src="images/show_ocr.png" style="width: 105%;" id="title-icon">       </p>
+    <p align="center"> <img src="images/show_ocr.png" style="width: 105%;" id="title-icon"></p>
 
 获取 OCR 文本的脚本：[get_ocr_text_by_lmm.py]("scripts/get_ocr_text_by_lmm.py")
 
