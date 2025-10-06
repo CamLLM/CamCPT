@@ -26,7 +26,7 @@
     > [民航英语教材-辞典-对齐术语 PDF 目录](pt_data_collect/民航英语教材&辞典&对齐术语/)
     
     <details>
-    <summary>开设课程</summary>
+    <summary>开设课程(点击查看图片)</summary>
     <p align="center"> <img src="images/course.png" style="width: 85%;" id="title-icon"></p>
     </details>  
 
@@ -38,7 +38,7 @@
     > [FAA执照英文教材 PDF 目录](pt_data_collect/FAA执照教材/)
 
     <details>
-    <summary>执照教材</summary>
+    <summary>执照教材(点击查看图片)</summary>
     <p align="center"> <img src="images/license.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
@@ -49,7 +49,7 @@
     > [ATA31~ATA80 737NG机型中文版教材 PDF 目录](pt_data_collect/ATA31~ATA80%20737NG机型中文版教材/)
 
     <details>
-    <summary>ATA教材</summary>
+    <summary>ATA教材(点击查看图片)</summary>
     <p align="center"> <img src="images/ATA.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
@@ -60,21 +60,21 @@
     > [民航维修论文及期刊 PDF 目录](pt_data_collect/民航维修论文及期刊/)
 
     <details>
-    <summary>论文</summary>
+    <summary>论文(点击查看图片)</summary>
     <p align="center"> <img src="images/paper.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
 2. 期刊，如《航空维修与工程》
 
     <details>
-    <summary>期刊</summary>
+    <summary>期刊(点击查看图片)</summary>
     <p align="center"> <img src="images/journal.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
 3. 相关经典民航维修图书等，如《波音737NG飞机系统》、《民航机务英语教程》等
 
     <details>
-    <summary>经典图书</summary>
+    <summary>经典图书(点击查看图片)</summary>
     <p align="center"> <img src="images/books.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
@@ -88,14 +88,14 @@
 
 
     <details>
-    <summary>各类手册</summary>
+    <summary>各类手册(点击查看图片)</summary>
     <p align="center"> <img src="images/manual.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
 2. 培训资料课件(PDF、Word、PPT等格式)
 
     <details>
-    <summary>各类教辅讲义等</summary>
+    <summary>各类教辅讲义等(点击查看图片)</summary>
     <p align="center"> <img src="images/teaching_materials.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
@@ -103,14 +103,14 @@
 1. 相关优质的开源社区，如机务在线论坛
 
     <details>
-    <summary>机务在线论坛</summary>
+    <summary>机务在线论坛(点击查看图片)</summary>
     <p align="center"> <img src="images/airacm.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
 2. 相关优质公众号文章等
 
     <details>
-    <summary>开源高质量领域文章</summary>
+    <summary>开源高质量领域文章(点击查看图片)</summary>
     <p align="center"> <img src="images/wechat_blog.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
@@ -119,14 +119,14 @@
 1. 民航维修相关的实操视频，进行视频理解并文本生成
 
     <details>
-    <summary>视频理解</summary>
+    <summary>视频理解(点击查看图片)</summary>
     <p align="center"> <img src="images/video.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
 2. 民航维修相关的原理图、结构图等，进行图片理解并文本生成
 
     <details>
-    <summary>图片理解</summary>
+    <summary>图片理解(点击查看图片)</summary>
     <p align="center"> <img src="images/principle.png" style="width: 85%;" id="title-icon"></p>
     </details>
 
@@ -176,21 +176,21 @@ semchunk：通过递归拆分文本，直到所有生成的块大小等于或小
     1. 以 Qwen3-8B-Base 为代表，在 ms-swift 框架下跑通 Dense 模型的持续预训练，脚本：[dense_pt_with_swift.sh](scripts/dense_pt_with_swift.sh)
 
         <details>
-        <summary>损失loss下降图</summary>
+        <summary>损失loss下降图(点击查看图片)</summary>
         <p align="center"> <img src="images/pt_dense_swift_loss.png" style="width: 85%;" id="title-icon"></p>
         </details>
 
     2. 以 Qwen3-8B-Base 为代表，在 megatron 框架下跑通 Dense 模型的持续预训练，脚本：[dense_pt_with_megatron.sh](scripts/dense_pt_with_megatron.sh)
 
         <details>
-        <summary>损失loss下降图</summary>
+        <summary>损失loss下降图(点击查看图片)</summary>
         <p align="center"> <img src="images/pt_dense_megatron_loss.png" style="width: 85%;" id="title-icon"></p>
         </details>
 
     3. 以 Qwen3-30B-A3B-Base 为代表，在 megatron 框架下跑通 MoE 模型的持续预训练，脚本：[moe_pt_with_megatron.sh](scripts/moe_pt_with_megatron.sh)
 
         <details>
-        <summary>损失loss下降图</summary>
+        <summary>损失loss下降图(点击查看图片)</summary>
         <p align="center"> <img src="images/pt_moe_megatron_loss.png" style="width: 85%;" id="title-icon"></p>
         </details>
 
